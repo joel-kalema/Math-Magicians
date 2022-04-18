@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# Project Name
 
-> This is the first project of the Math Magicians application. I seted set up the environment and tools needed to develop a React application.
+> Description the project.
+
 
 ## Built With
 
@@ -14,40 +15,42 @@
 
 [Live Demo Link](https://livedemo.com)
 
-## Get Started
 
-To get a clone of the project, run `git clone git@github.com:jssol/todo-list-react.git && cd $_`
+## Getting Started
 
-### Available Scripts
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-In the project directory, you can run:
 
-**`npm install`**
+To get a local copy up and running follow these simple example steps.
 
-Gets all the required dependencies of the projects.
+### Prerequisites
 
-**`npm start`**
+### Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Usage
 
-**`npm test`**
+### Run tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Deployment
+
+
 
 ## Authors
 
-<a href="https://github.com/joel-kalema" target="blank"><img align="center"
-      src="https://user-images.githubusercontent.com/57408419/163676914-ad94695e-ba9f-4fea-9a06-02a93c7797a5.jpg"
-      alt="adampithewan" height="60" width="50"/></a> **JOEL KALEMA**
+👤 **Author1**
 
-- GitHub: [@joel-kalema](https://github.com/joel-kalema)
-- Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
-- LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 

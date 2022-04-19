@@ -1,15 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Microverse!</p>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      keysnumber: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <div>
+          {this.state.keysnumber.map((num) => num)}
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

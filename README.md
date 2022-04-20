@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## Built With
 
@@ -39,7 +39,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 <a href="https://github.com/joel-kalema" target="blank"><img align="center"
       src="https://user-images.githubusercontent.com/57408419/163676914-ad94695e-ba9f-4fea-9a06-02a93c7797a5.jpg"
-      alt="adampithewan" height="60" width="50"/></a> **JOEL KALEMA**
+      alt="adampithewan" height="50" width="50"/></a> **JOEL KALEMA**
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
 - Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)

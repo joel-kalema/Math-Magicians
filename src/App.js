@@ -1,19 +1,17 @@
 import React from 'react';
+import './App.css';
+import Calculator from './component/calculator';
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {
-      keysnumber: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-    };
+    this.state = {};
   }
 
   render() {
     return (
       <div>
-        <div>
-          {this.state.keysnumber.map((num) => num)}
-        </div>
+        <Calculator />
       </div>
     );
   }

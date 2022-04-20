@@ -16,6 +16,8 @@ button {
 }
 
 .screen {
+  display: flex;
+  justify-content: end;
   width: 100%;
   height: 16%;
   background-color: rgb(121, 121, 121);

@@ -4,6 +4,10 @@
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
+## Image
+
+![super-calculator](https://user-images.githubusercontent.com/57408419/164332620-2a15ce3e-82ed-474e-9cbb-9f09d2a134d4.jpg)
+
 ## Built With
 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img
@@ -13,6 +17,7 @@
 ## Get Started
 
 To get a clone of the project, run `git clone git@github.com:jssol/todo-list-react.git && cd $_`
+j
 
 ### Available Scripts
 

@@ -13,6 +13,7 @@
 ## Get Started
 
 To get a clone of the project, run `git clone git@github.com:jssol/todo-list-react.git && cd $_`
+j
 
 ### Available Scripts
 

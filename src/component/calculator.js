@@ -1,45 +1,59 @@
 import React from 'react';
 import './calculator.css';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
+  constructor(props) {
+    super(props);
+    this.state = { total: null, next: null, operation: null };
   }
 
   render() {
+    const updateDetails = (e) => {
+      const newObj = calculate(this.state, e.target.textContent);
+      this.setState(newObj);
+    };
+
+    const { next, operation, total } = this.state;
+    const op = operation === '%' ? 'mod' : operation;
+    let result = '';
+    if (total) {
+      result = `${total} ${op || ''} ${next || ''}`;
+    } else if (next) {
+      result = `${next} ${op || ''}`;
+    }
     return (
       <div className="UI">
-        <div className="screen">0</div>
+        <div className="screen">{result || 0}</div>
         <div className="body">
           <div className="body-key">
             <div className="reset">
-              <button type="button">AC</button>
-              <button type="button">+/-</button>
-              <button type="button">%</button>
+              <button type="button" onClick={updateDetails}>AC</button>
+              <button type="button" value="+/-" onClick={updateDetails}>+/-</button>
+              <button type="button" value="%" onClick={updateDetails}>%</button>
             </div>
             <div className="buttons">
-              <button type="button">7</button>
-              <button type="button">8</button>
-              <button type="button">9</button>
-              <button type="button">4</button>
-              <button type="button">5</button>
-              <button type="button">6</button>
-              <button type="button">1</button>
-              <button type="button">2</button>
-              <button type="button">3</button>
+              <button type="button" onClick={updateDetails}>7</button>
+              <button type="button" onClick={updateDetails}>8</button>
+              <button type="button" onClick={updateDetails}>9</button>
+              <button type="button" onClick={updateDetails}>4</button>
+              <button type="button" onClick={updateDetails}>5</button>
+              <button type="button" onClick={updateDetails}>6</button>
+              <button type="button" onClick={updateDetails}>1</button>
+              <button type="button" onClick={updateDetails}>2</button>
+              <button type="button" onClick={updateDetails}>3</button>
               <div className="footer">
-                <button type="button" className="zero">0</button>
-                <button type="button" className="point">.</button>
+                <button type="button" className="zero" onClick={updateDetails}>0</button>
+                <button type="button" className="point" onClick={updateDetails}>.</button>
               </div>
             </div>
           </div>
           <div className="sign">
-            <button type="button">/</button>
-            <button type="button">*</button>
-            <button type="button">-</button>
-            <button type="button">+</button>
-            <button type="button">=</button>
+            <button type="button" onClick={updateDetails}>÷</button>
+            <button type="button" onClick={updateDetails}>x</button>
+            <button type="button" onClick={updateDetails}>-</button>
+            <button type="button" onClick={updateDetails}>+</button>
+            <button type="button" onClick={updateDetails}>=</button>
           </div>
         </div>
       </div>

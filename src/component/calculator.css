@@ -26,7 +26,7 @@ button {
 
 .calculator {
   padding: 15px;
-  background-color: #ecf0f3;
+  background-color: #e9eaeb;
   box-shadow: inset 5px 5px 12px #fff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
   display: grid;
   grid-template-columns: repeat(4, 68px);

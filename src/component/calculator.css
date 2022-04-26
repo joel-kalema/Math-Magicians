@@ -18,6 +18,7 @@ button {
 }
 
 .container {
+  padding-top: 10vh;
   height: 100vh;
   display: flex;
   justify-content: center;

@@ -18,10 +18,16 @@ button {
 }
 
 .container {
+  padding-top: 10vh;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.container h1 {
+  color: rgb(59, 59, 83);
+  font-size: 40px;
 }
 
 .calculator {
@@ -66,4 +72,16 @@ button {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+@media only screen and (max-width: 712px) {
+  .container h1 {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .container {
+    padding-top: 20vh;
+    flex-direction: column;
+  }
 }

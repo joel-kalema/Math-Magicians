@@ -20,6 +20,7 @@ const Calculator = () => {
   }
   return (
     <div className="container">
+      <h1>let us do some math!</h1>
       <div className="calculator">
         <div className="screen">{result || 0}</div>
         <button type="button" onClick={updateDetails}>AC</button>

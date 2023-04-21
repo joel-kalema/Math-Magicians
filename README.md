@@ -7,6 +7,8 @@
 
 ![Annotatio4](https://user-images.githubusercontent.com/57408419/165484351-d503c50b-3dd5-473a-b189-77cc7d14de46.jpg)
 
+### [live demo](https://mathmagiciansjk.netlify.app/)
+
 ## Built With
 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img

@@ -20,7 +20,12 @@ const Calculator = () => {
   }
   return (
     <div className="container">
-      <h1>let us do some math!</h1>
+      <div>
+        <h1>let us do some math!</h1>
+        <div>
+          <img src="/electro.png" alt="math" className="image-cal" />
+        </div>
+      </div>
       <div className="calculator">
         <div className="screen">{result || 0}</div>
         <button type="button" onClick={updateDetails}>AC</button>

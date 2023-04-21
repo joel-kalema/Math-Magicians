@@ -56,8 +56,22 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
-  color: rgb(59, 59, 83);
+  color: rgb(108, 108, 150);
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home h1 {
+  font-size: 4rem;
+}
+
+.home p {
+  font-size: 1.5rem;
 }
 
 .quote {
@@ -82,6 +96,22 @@ nav ul li {
 .quote-container h1 {
   font-size: 30px;
   margin-bottom: 30px;
+}
+
+.image {
+  margin: 2rem auto;
+  width: 20rem;
+}
+
+.image-cal {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 415px) {
+  .image-cal {
+    display: none;
+  }
+  
 }
 
 @media only screen and (max-width: 712px) {
